@@ -1,0 +1,95 @@
+/* .board-container {
+    position: relative;
+  }
+  
+  .board-img-container {
+    position: relative;
+  }
+  .board {
+    width: 100%;
+    height: auto;
+  }
+
+.character-thumbnail-container {
+    display: block;
+    float: left;
+    width: 46%;
+    height: auto;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .character-name {
+    text-align: center;
+  }
+  
+  .character-thumbnail {
+    width: 80%;
+    margin-left: 10%;
+    height: 175px;
+  } */
+
+  .main {
+    margin-top: 20px;
+  }
+  
+  .board-container {
+    position: relative;
+  }
+  
+  .board-img-container {
+    position: relative;
+  }
+  
+  .board-thumbnail-container {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 270px;
+    margin-bottom: 15px;
+  }
+  
+  .board-thumbnail {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 5%;
+  }
+  
+  .board {
+    width: 100%;
+    height: auto;
+  }
+  
+  .character-thumbnail-container {
+    display: block;
+    float: left;
+    width: 46%;
+    height: auto;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .character-name {
+    text-align: center;
+  }
+  
+  .character-thumbnail {
+    width: 80%;
+    margin-left: 10%;
+    height: 175px;
+  }
+  
+  .close-btn {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+  }
+  
+  .close-btn:hover {
+    cursor: pointer;  
+  }
+  
+  

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whers's Waldo?</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color: #6cffac;padding-bottom: 50px;">
+
+    <div class="container justify-content-center">
+        <div class="main">
+
+            <div class=" text-center mt-5">
+                <p style="font-size: 50px;font-weight: bold;">The Game Begins</p>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-4 col-lg-9 mt-3 text-center border-dark">
+                    <div class="board-container">
+                        <div class="board-img-container">
+                            <img data-characters="[{&quot;id&quot;:10,&quot;name&quot;:&quot;waldo&quot;,&quot;x_pos&quot;:345,&quot;y_pos&quot;:157,&quot;width&quot;:17,&quot;height&quot;:34,&quot;board_id&quot;:4,&quot;created_at&quot;:&quot;2015-09-19T10:23:01.971Z&quot;,&quot;updated_at&quot;:&quot;2015-09-19T10:23:01.971Z&quot;},{&quot;id&quot;:11,&quot;name&quot;:&quot;wenda&quot;,&quot;x_pos&quot;:131,&quot;y_pos&quot;:139,&quot;width&quot;:14,&quot;height&quot;:21,&quot;board_id&quot;:4,&quot;created_at&quot;:&quot;2015-09-19T10:23:01.977Z&quot;,&quot;updated_at&quot;:&quot;2015-09-19T10:23:01.977Z&quot;},{&quot;id&quot;:12,&quot;name&quot;:&quot;wizard&quot;,&quot;x_pos&quot;:671,&quot;y_pos&quot;:523,&quot;width&quot;:29,&quot;height&quot;:47,&quot;board_id&quot;:4,&quot;created_at&quot;:&quot;2015-09-19T10:23:01.983Z&quot;,&quot;updated_at&quot;:&quot;2015-09-19T10:23:01.983Z&quot;},{&quot;id&quot;:13,&quot;name&quot;:&quot;odlaw&quot;,&quot;x_pos&quot;:144,&quot;y_pos&quot;:342,&quot;width&quot;:17,&quot;height&quot;:29,&quot;board_id&quot;:4,&quot;created_at&quot;:&quot;2015-09-19T10:23:01.989Z&quot;,&quot;updated_at&quot;:&quot;2015-09-19T10:23:01.989Z&quot;}]"
+                                src="assets/images/board-2.jpg" alt="Card-one" class="board card-img-top">
+                        </div>
+                       <!-- <div id="character-select"
+                            style="position: absolute; padding: 10px; left: 438px; border: 2px solid white; background-color: rgb(176, 224, 230); top: 388px;">
+
+                            <button class="character-option" value="waldo"
+                                style="display: block; width: 100%; text-align: center;">
+                                Waldo
+                            </button>
+
+                            <button class="character-option" value="wenda"
+                                style="display: block; width: 100%; text-align: center;">
+                                Wenda
+                            </button>
+
+                            <button class="character-option" value="wizard"
+                                style="display: block; width: 100%; text-align: center;">
+                                Wizard
+                            </button>
+
+                            <button class="character-option" value="odlaw"
+                                style="display: block; width: 100%; text-align: center;">
+                                Odlaw
+                            </button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="h2"> Board 2</div>
+                    <div class="instructions h4"> Find the Waldo listed below! Find all characters to win.</div>
+
+                    <div class="character-thumbnail-container" id="Wenda">
+                        <div class="character-name">
+                            Wenda
+                        </div>
+                        <div>
+                            <img class="character-thumbnail" src="./assets/images/wenda.jpg" alt="wenda">
+                        </div>
+                    </div>
+                    <div class="character-thumbnail-container" id="waldo">
+                        <div class="character-name">
+                            Waldo
+                        </div>
+                        <div>
+                            <img class="character-thumbnail" src="./assets/images/waldo.jpg" alt="Waldo">
+                        </div>
+                    </div>
+                    <div class="character-thumbnail-container" id="waldo">
+                        <div class="character-name">
+                            Wizard
+                        </div>
+                        <div>
+                            <img class="character-thumbnail" src="./assets/images/wizard.jpg" alt="Wizard">
+                        </div>
+                    </div>
+                    <div class="character-thumbnail-container" id="odlw">
+                        <div class="character-name">
+                            Odlw
+                        </div>
+                        <div>
+                            <img class="character-thumbnail" src="./assets/images/odlaw.jpg" alt="Wizard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS File -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="assets/javascripts/boards/show.js"></script>
+
+
+
+
+
+</body>
+
+</html>

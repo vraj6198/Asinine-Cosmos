@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.project-name{
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.source-code{
+    text-align: center;
+}
+.source-code a{
+    color: black;
+    font-size: 70px;
+    margin: 0 auto;
+    transition: all 0.35s ease-in-out;
+}
+.source-code a:hover{
+    text-decoration: none;
+}
+
+.project-desc{
+ text-align: center;
+ font-family: 'Hammersmith One', sans-serif;
+}
+
+#games{
+    padding: 15px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 1024px) {
+    #games{
+        padding: 0px 100px;
+    }
+}
+#games .card{
+    margin: 15px 0;
+    border: none;
+    box-shadow: 2px 5px 10px gray;
+}
+#games .game-image{
+    width: 100%;
+    height: 400px;
+}
+#games .game-image img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid gray;
+}
+#games .game-name{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+#games .game-desc{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 0 10px;
+    font-size: 18px;
+    color: gray;
+}
+#games button{
+    border: none;
+    padding: 10px 30px;
+    background: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 28px;
+    transition: all 0.35s ease-in-out;
+}
+#games button:hover{
+    background: #222;
+}
+#games a{
+    text-align: center;
+    padding: 10px;
+}
+
