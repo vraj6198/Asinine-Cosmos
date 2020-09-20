@@ -1,10 +1,6 @@
 # Asinine-Cosmos
 ### Tools and Technologies
 #### HTML5 | CSS | JavaScript | Bootstrap | Game.js library | Amazon-Web Services | Github Students' Developer Pack
-<br/>
-<br/>
-<br/>
-<br/>
 ![Asinine-Cosmos](ReadmeAssets/app-name.png)
 ### Welcome to ASININE COSMOS, a place where you can play games online. All you need is an Internet connection and your favourite browser. Here are some games which you can play and pass some time!
 
