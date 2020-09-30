@@ -1,7 +1,7 @@
 # Asinine-Cosmos
 ## Website:- http://prototype-1-k.s3-website-us-east-1.amazonaws.com
 ### Tools and Technologies
-#### HTML5 | CSS | JavaScript | Bootstrap | Game.js library | Amazon-Web Services | Github Students' Developer Pack | Amazon S3
+#### HTML5 | CSS | JavaScript | Bootstrap | Game.js library | Amazon-Web Services | Github Students' Developer Pack
 ![Asinine-Cosmos](ReadmeAssets/app-name.png)
 ### Welcome to ASININE COSMOS, a place where you can play games online. All you need is an Internet connection and your favourite browser. Here are some games which you can play and pass some time!
 
@@ -32,3 +32,7 @@
 <img align="left" alt="codeSTACKr.com" width="50px" src="https://cdn.iconscout.com/icon/free/png-512/chrome-36-569244.png" />
 <img align="left" alt="codeSTACKr.com" width="47px" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg-high-res.fbc7ffbb50fd.png" />
 <img align="left" alt="codeSTACKr.com" width="47px" src="https://i.redd.it/elm050ng2kv41.jpg" />
+
+
+
+
